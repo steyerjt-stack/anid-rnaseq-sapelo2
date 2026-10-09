@@ -1,0 +1,59 @@
+# RNA-seq input data
+raw_fast*/
+merged_fastq/
+original_fastq/
+st*ndardized_fastq/
+
+# Reference*files and STAR index
+reference/
+
+#*Pipeline outputs
+results/
+logs/
+ma*ifests/
+
+# Sequencing and alignmen* files
+*.fastq
+*.fastq.gz
+*.*q
+*.fq*gz
+*.sam
+*.bam
+*.bai
+*.cram
+*.*rai
+
+# Large*matrices and archives
+*.tar
+*.tar.*z
+*.tg***.zip
+
+# R*workspace*and history
+.Rhistory
+.RData
+.Ruse*data
+.Rproj.user/
+
+# Temporary and*editor files
+*.tmp
+*.temp
+*.swp
+*.*wo
+*~
+.DS_Store
+Thumbs.db
+
+# Faile* or backup script copies
+*.bak
+*.b*dcopy
+*.html_corrupt.bak
+*.*re_unicode_cleanup.bak
+
+# Sl*rm runtime files
+slurm-*.out
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
